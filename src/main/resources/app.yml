@@ -1,0 +1,12 @@
+#数据库配置
+demo.db1:
+  schema: test
+  jdbcUrl: jdbc:mysql://192.168.3.17:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=true
+  driverClassName: com.mysql.cj.jdbc.Driver
+  username: root
+  password: 123456
+
+jwt:
+#  失效时间
+  time: 3600000
+  key: dasdasdjhiyhiuhikj
